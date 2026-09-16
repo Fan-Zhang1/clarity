@@ -10,7 +10,7 @@ lib/
 lib64/
 parts/
 sdist/
-var/
+voar/
 wheels/
 pip-wheel-metadata/
 share/python-wheels/
@@ -69,3 +69,11 @@ clarity/_version.py
 
 # Sound files
 *.wav
+
+# Whisper SI local data and large intermediate results
+recipes/whisper_si/CPC1 data/
+recipes/whisper_si/results/hidden_representations/
+
+# PyCharm
+.idea/
+recipes/whisper_si/baseline/.idea/
